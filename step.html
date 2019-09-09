@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>お買い物の流れ</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+/* ================= 縦帯両サイド表示 ここから ====================================*/
+
+
+#tate_left02 {
+left: 0px;
+}
+
+#tate_right02 {
+right: 0px;
+}
+
+#tate_left02,  #tate_right02 {
+position: absolute;
+width: 80px;/*　★縦バナーの横幅★（※上記の数値と合わせる）　*/
+min-height:100%;
+visibility: visible;/*縦バナーの表示・非表示をここを変えるだけ*/
+display: block;
+}
+
+.tateobi2 {
+background: url("https://image.rakuten.co.jp/life-direct/cabinet/maku_20140106.jpg") repeat-y scroll;/*縦バナーのパス*/
+min-height: 100%;
+height: 3100px;/* ページ最下部までの長さ※ページの長さに応じて変更 */
+z-index: -99999;
+visibility: visible;
+}
+
+.tateobi3 {
+background: url("https://image.rakuten.co.jp/life-direct/cabinet/maku_20140106.jpg") repeat-y scroll;/*縦バナーのパス*/
+min-height: 100%;
+height: 3100px;/* ページ最下部までの長さ※ページの長さに応じて変更 */
+z-index: -99999;
+visibility: visible;
+}
+
+ @media screen and (max-width: 1220px) {
+#tate_left02, #tate_right02 {
+visibility: hidden;
+}
+}
+
+/* ================= 縦帯両サイド表示 ここまで ====================================*/
+-->
+</style>
+</head>
+
+<body>
+<!-- サイドバナー -->
+<!-- //サイドバナー -->
+<!-- サイド帯 -->
+<!-- <link href="https://www.rakuten.ne.jp/gold/life-direct/css/obi.css" rel="stylesheet" type="text/css"> -->
+<!-- //サイド帯 -->
+<!--
+<ul style="display:block;">
+  <li class="tateobi2" id="tate_left02"></li>
+  <li class="tateobi3" id="tate_right02"></li>
+</ul>
+-->
+<div id="wrapper">
+<div id="head">
+    <iframe name="header_frame" src="header.html" scrolling="no" frameborder="0" width="1000" height="400" class="headerFrame"></iframe>
+  </div>
+<div id="contents">
+  <div id="sab">
+    <iframe name="sab_frame" src="sab_area.html" scrolling="no" frameborder="0" width="200" height="1500"></iframe>
+  </div>
+  <div id="main">
+    <p><img src="images/step01.png" width="790" height="973" /></p>
+    <p><img src="images/step02.png" width="790" height="784" /></p>
+  </div>
+</div>
+<div id="footer">
+    <iframe name="footer_frame" src="footer.html" scrolling="no" frameborder="0" width="1000" height="530"></iframe>
+  </div>
+</div>
+</body>
+</html>

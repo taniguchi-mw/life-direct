@@ -1,0 +1,135 @@
+@charset "euc-jp";
+
+/* --- サイドバナー --- */
+
+.sideBnr_block {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index:999;
+	display:block;
+	width:120px;
+}
+.sideBnr a {
+	position:absolute;
+	right:-21px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.sideBnr a:hover {
+	right: -12px;
+	opacity:1;
+}
+.sideBnr-00 a {
+	top: 58px;
+	width:120px;
+	height:70px;
+}
+.sideBnr-01 a {
+	top: 130px;
+	width:120px;
+	height:99px;
+}
+.sideBnr-02 a {
+	top: calc(130px + 99px + 12px);
+	width:120px;
+	height:90px;
+}
+.sideBnr-03 a {
+	top: calc(130px + 99px + 12px + 1 * (90px + 12px));
+	width:120px;
+	height:90px;
+}
+.sideBnr-04 a {
+	top: calc(130px + 99px + 12px + 2 * (90px + 12px));
+	width:120px;
+	height:90px;
+}
+.sideBnr-05 a {
+	top: calc(130px + 99px + 12px + 3 * (90px + 12px));
+	width:120px;
+	height:90px;
+}
+
+.sideBnr-coupon a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_coupon.png) left 9px no-repeat;
+}
+.sideBnr-coupon a:hover {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_coupon.png) left -90px no-repeat;
+}
+.sideBnr-coupon_use a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_coupon_use.png) left top no-repeat;
+}
+.sideBnr-1000en a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_1000en.png) left top no-repeat;
+}
+.sideBnr-50off a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_50off.png) left top no-repeat;
+}
+.sideBnr-10off a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_10off.png) left top no-repeat;
+}
+.sideBnr-deal a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/deal/bn_deal_15.png) left top no-repeat;
+}
+.sideBnr-ichioshi a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/deal/bn_ichioshi.png) left top no-repeat;
+}
+.sideBnr-point a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_point_10.png) left top no-repeat;
+}
+.sideBnr-wakeari a {
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/oc_cmn/bn_wakeari.png) left top no-repeat;
+}
+
+.sideBnr_R {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index:999;
+	display:block;
+	width:120px;
+}
+.sideBnr_R a {
+	position:absolute;
+	display: block;
+}
+.sideBnr_R a img {
+	width:100%;
+}
+.sideBnr_R a:hover {
+	opacity:0.8;
+	right: -18px !important;
+}
+.sideBnr_R_01 {
+	top: 60px;
+	right:-23px;
+	width:120px;
+}
+.sideBnr_R_02 {
+	top: calc(60px + 298px + 5px);
+	right:-23px;
+	width:120px;
+}
+
+
+
+/* --- フローティングバナー --- */
+
+#floatbanner a {
+display: block;
+width: 100%;/*フロートバナーの横幅*/
+/* height: 38px; *//*バナーの縦幅*/
+/* line-height: 38px; */
+margin: 0;
+padding: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+color: #FFF!important; 
+text-align: center;
+font-weight: bold;
+background-color: rgba(0,0,0,0.5);/*背景色の透明度と色*/
+z-index:9005;
+}

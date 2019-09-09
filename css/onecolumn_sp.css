@@ -1,0 +1,672 @@
+@charset "euc-jp";
+
+#wrapper, #contents {
+	width:100%;
+}
+#lp_footer {
+	margin: 0 auto;
+	width: 1000px;
+}
+a { text-decoration: none;}
+a:hover { opacity: 0.8;}
+h1 {margin:0;padding:0;}
+
+
+
+/* --- ページトップへ --- */
+.pagetop a {
+	position: fixed;
+	right: 0px;
+	z-index: 999;
+	display: block;
+	width: 61px;
+	height: 60px;
+	bottom: 50px;
+	right: 40px;
+}
+.backtohome {
+	margin:45px 0;
+}
+
+.oc_layout {
+	position:relative;
+	padding: 0;
+	font-family: 'Noto Sans Japanese', Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-decoration: none;
+	background-color:#FFF;
+	color: #010101;
+}
+.oc_layout * {
+	font-size: 16px;
+	line-height: 1.4;
+	box-sizing: border-box;
+}
+.oc_layout img {
+	width: 100%;
+}
+
+
+/*---------------------------------
+
+	onecolumn
+
+---------------------------------*/
+.oc_topimg_block {
+	position:relative;
+}
+.oc_topimg_block-om {
+	background-color: #ffcf3e;
+}
+.oc_topimg_block-deal {
+	background-color: #ec0478;
+}
+.oc_topimg_block-dk {
+	background-color: #b6830e;
+}
+.oc_topimg_block-xmas {
+-webkit-background-size: 160px 160px;
+-moz-background-size: 160px 160px;
+background-size: 160px 160px;
+background-color: #bf0000;
+background-image: -webkit-gradient(linear, 0 100%, 100% 0,
+            color-stop(.25, #b10000), color-stop(.25, transparent),
+            color-stop(.5, transparent), color-stop(.5, #b10000),
+            color-stop(.75, #b10000), color-stop(.75, transparent),
+            to(transparent));
+background-image: -webkit-linear-gradient(45deg, #b10000 25%, transparent 25%,
+          transparent 50%, #b10000 50%, #b10000 75%,
+          transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, #b10000 25%, transparent 25%,
+          transparent 50%, #b10000 50%, #b10000 75%,
+          transparent 75%, transparent);
+background-image: -ms-linear-gradient(45deg, #b10000 25%, transparent 25%,
+          transparent 50%, #b10000 50%, #b10000 75%,
+          transparent 75%, transparent);
+background-image: -o-linear-gradient(45deg, #b10000 25%, transparent 25%,
+          transparent 50%, #b10000 50%, #b10000 75%,
+          transparent 75%, transparent);
+background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
+          transparent 50%, #b10000 50%, #b10000 75%,
+          transparent 75%, transparent);
+}
+.oc_topimg_block-syougatsu {
+	background: url(../images/oc_cmn/bg_syougatsu.png) left top repeat #FFFFFF;
+}
+.oc_topimg_block-feb {
+	background: url(../images/oc_cmn/bg_feb.png) left bottom repeat-x #FFF1E3;
+}
+.oc_topimg_block-sakura {
+	background: #fe3383;
+}
+.oc_topimg_block-midori {
+	background: #7f9d0a;
+}
+.oc_topimg {
+	margin:0 auto;
+}
+.oc_topbtn {
+	position:absolute;
+	width:414px;
+}
+/* お買い物マラソン */
+.oc_con_bg-om {
+	background: url(../images/om/om_bg.png) center top no-repeat #FFFFFF;
+}
+/* お買い物マラソン(2月) */
+.oc_con_bg-feb {
+	background: url(../images/om/om_bg-feb.png) center top no-repeat #FFFFFF;
+}
+/* お買い物マラソン(桜) */
+.oc_con_bg-sakura {
+	background: url(../images/oc_cmn/bg-sakura.jpg) center top no-repeat #FFFFFF;
+}
+/* お買い物マラソン(緑) */
+.oc_con_bg-midori {
+	background: url(../images/oc_cmn/bg-midori.jpg) center top no-repeat #FFFFFF;
+}
+/* スーパーSALE */
+.oc_con_bg-ss-winter {
+	background: url(../images/ss/ss_bg-winter.png) center top no-repeat #FFFFFF;
+}
+.oc_con_bg-summer2 {
+	background-image: url(../images/oc_cmn/bg-sea.jpg);
+	background-position: left bottom;
+}
+.oc_con_bg-autumn {
+	background-image: url(../images/oc_cmn/bg-cosmos.jpg);
+	background-position: left bottom;
+}
+
+.oc_topbtn-ss {
+	right:56px;
+	bottom:15px;
+}
+/* 大感謝祭 */
+.oc_con_bg-dk {
+	background: url(../images/dk/dk_bg.png) center top no-repeat;
+}
+.oc_topbtn-ss-dk {
+	right:12px;
+	bottom:35px;
+}
+/* 夏特集 */
+.oc_con_bg-summer {
+	background-image: url(../images/feature/summer_bg.jpg);
+	background-position: center top;
+}
+
+.oc_con_bg {
+	width:100%;
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat:repeat;
+}
+.oc_con_block-white {
+	background-color: rgba(256,256,256,0.8);
+}
+.oc_con_block {
+	margin:0 auto;
+	padding: 0.5em 0;
+}
+
+
+
+/*---------------------------------
+
+	tt_block
+
+---------------------------------*/
+.oc_tt_block {
+	margin:1em auto 0;
+	position:relative;
+	padding:2.1em 1em;
+	width:100%;
+}
+.oc_tt_block-yajirushi {
+	padding:2.1em 1em 2.4em;
+	margin:3.6em auto 2em;
+}
+.oc_tt_block-yajirushi::after {
+    content:'';
+    position: absolute;
+    top: 96%;
+	left:50%;
+	transform:translateX(-50%);
+    height: 0;
+    width: 0;
+    border: 30px solid transparent;
+    border-top: 30px solid #FFFFFF;
+}
+.oc_tt {
+	position:relative;
+	margin: 0 auto 0.8em;
+	font-size: 36px;
+	text-align: center;
+}
+.oc_tt-bdrn {
+	margin: 0 auto 0.8em;
+	font-size: 36px;
+	text-align: center;
+}
+.oc_tt::before {
+	content:'';
+	position:absolute;
+	bottom:-24%;
+	left:50%;
+	transform:translateX(-50%);
+	width:24%;
+	height:5px;
+	border-radius: 2px;
+	background-color:#FFFFFF;
+}
+.oc_tt_sub {
+	font-size: 18px;
+	text-align: center;
+}
+
+/* 夏特集 */
+.oc_tt_block-summer {
+	background-color: #0a5294;
+	color:#FFFFFF;
+}
+.oc_tt_block-summer::after {
+    border-top: 30px solid #0a5294;
+}
+.oc_tt-summer {
+	color:#0a5294;
+}
+.oc_tt-summer::before {
+	background-color:#0a5294;
+}
+.oc_tt_sub-summer {
+	color: #fdff2c;
+}
+/* スーパーセール6月 */
+.oc_tt_block-ss {
+	background-color: #ffed02;
+	color:#0a5294;
+}
+.oc_tt_block-ss::after {
+    border-top: 30px solid #ffed02;
+}
+.oc_tt_block-ss {
+	color:#0a5294;
+}
+.oc_tt_block-ss::before {
+	background-color:#ffed02;
+}
+.oc_tt_sub-ss {
+	color: #0a5294;
+}
+
+
+.oc_tt-sakura {
+	margin: 5% auto 2%;
+	padding: 1% 0;
+	background-color: #ff3183;
+}
+.oc_tt-sakura::before {
+    background-color: transparent;
+}
+
+
+/*---------------------------------
+
+	couponList
+
+---------------------------------*/
+.couponList {
+	margin:0 auto;
+	width:96%;
+	max-width:1000px;/*都度変更*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+.couponList_item {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:5px;
+}
+.couponList_item-2c {
+	width: 50%;
+}
+.couponList_item-3c {
+	width: 33%;
+	max-width:180px;/*都度変更*/
+}
+.couponList_note {
+	margin:0 auto;
+	padding-top:2%;
+	width:96%;
+	font-size: 18px;
+	text-align: center;
+}
+
+/*---------------------------------
+
+	list1000en
+
+---------------------------------*/
+.list1000en {
+	margin:0 auto;
+	width:96%;
+	max-width:1000px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+.list1000en_item {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:8px;
+}
+.list1000en_item-3c {
+	width: 33%;
+}
+.list1000en_img {
+}
+.list1000en_tt {
+	margin: 8px auto 0;
+	font-size: 21px;
+}
+.list1000en_txt {
+    margin: 5px auto 0;
+	line-height: 1.2;
+	font-size: 13px;
+	color: #9c9c9c;
+}
+.list1000en_price {
+    margin: 0 auto;
+	text-align: right;
+	font-weight: bold;
+	color: #c00000;
+}
+.list1000en_price_em {
+	font-size: 30px;
+}
+.list1000en_price_off {
+	text-decoration: line-through;
+	font-size: 18px;
+	color:#000;
+}
+.list1000en_price_off_em {
+	font-size: 18px;
+	color:#c00000;
+}
+.list1000en_sale {
+    margin: 0 auto;
+	text-align: right;
+	font-weight: bold;
+	color: #ff0084;
+}
+.list1000en_sale-blue {
+	color: #115BCA;
+}
+.list1000en_sale_em {
+	font-size: 21px;
+}
+.list1000en_sale_note {
+	padding-left: 5px;
+	font-weight: normal;
+	font-size: 14px;
+	color:#000000;
+}
+.list1000en_btn {
+    margin: 8px auto 0;
+}
+.list1000en_btn a {
+    margin: 8px auto 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display:block;
+    padding: 18px 15px;
+	width:100%;
+    background-color: #c00000;
+    text-align: center;
+	font-size: 21px;
+	font-weight: bold;
+    color: #FFFFFF;
+}
+
+/*---------------------------------
+
+	itemList
+
+---------------------------------*/
+.cat_tt {
+	margin:89px auto 0;
+	max-width: 790px;
+	text-align: center;
+}
+.cat_tt:first-of-type,
+.oc_tt + .cat_tt {
+	margin:0 auto;
+}
+.itemList {
+	margin:0 auto;
+	width:94%;
+}
+.cat_tt + .itemList {
+	margin:30px auto;
+}
+.itemList_item {
+	margin: 13px auto 0;
+	padding: 1%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items: center;
+	flex-direction: row;
+    flex-wrap: wrap;
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/top_banner5_bg.jpg) left top repeat;
+}
+.itemList_img {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 13px;
+	max-width: 390px;
+}
+.itemList_con {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:13px;
+	width:57%;
+}
+.itemList_tt {
+	font-weight: bold;
+	font-size: 24px;
+}
+.itemList_txt {
+	margin-top: 13px;
+	font-size: 16px;
+}
+.itemList_link {
+	margin-top: 13px;
+}
+
+
+/*---------------------------------
+
+	pointList
+
+---------------------------------*/
+.pointList {
+	margin:2.1em auto;
+	width:96%;
+	max-width: 1000px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+.pointList_item {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:8px 8px 15px 8px;
+	width:20%;
+}
+.pointList_point {
+	padding:3px;
+    text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+    color: #FFFFFF;
+}
+.pointList_point-pink {
+    background-color: #ff0084;
+}
+.pointList_point-blue {
+    background-color: #115BCA;
+}
+.pointList_point-red {
+     background-color: #d80000; 
+}
+.pointList_img a {
+	display:block;
+	width:100%;
+}
+.pointList_tt {
+	margin: 5px auto 3px;
+	line-height: 1;
+	font-weight: normal;
+	font-size: 15px;
+	color:#9c9c9c;
+}
+.pointList_tt-s {
+	font-size: 14px;
+}
+.pointList_tt_set {
+	font-size: 13px;
+}
+.pointList_sale_em {
+    margin: 0 auto;
+	padding:5px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height:1.2;
+	font-size: 30px;
+	background-color:#ff0084;
+}
+.pointList_sale_em-off {
+	background-color:#d80000;
+}
+.pointList_sale_em-point {
+	background-color:#ff0084;
+	font-size: 18px;
+}
+.pointList_sale_em-point-fzb {
+	font-size: 30px;
+	line-height:1.2;
+}
+.pointList_sale_note {
+    margin: 3px auto 8px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ff0084;
+	text-align: right;
+	line-height:1.2;
+}
+.pointList_sale_note-blue {
+	color: #115BCA;
+}
+.list1000en_sale a, 
+.pointList_sale_note a {
+	color:#ff0084;
+	text-decoration:underline;
+}
+.pointList_sale_note a:hover {
+	color:#006699;
+}
+.pointList_sale_note a:visited {
+	color:#8a00ff;
+}
+.pointList_price {
+    margin: 0 auto;
+	text-align: right;
+	font-size: 14px;
+	color: #c00000;
+}
+.pointList_price_note {
+	font-size: 16px;
+	color: #000;
+	text-decoration: line-through;
+}
+.pointList_price_note-tdn {
+	text-decoration:none;
+}
+.pointList_price_em {
+	font-weight: bold;
+	font-size: 24px;
+}
+.pointList_bookmark {
+	margin:4px 0 2px;
+}
+.pointList_bookmark a:hover {
+	opacity:0.8;
+}
+.pointList_btn a {
+    margin: 3px auto 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display:block;
+    padding: 12px;
+	width:100%;
+    background-color: #c00000;
+    text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
+/*---------------------------------
+
+	txt_block
+
+---------------------------------*/
+.txt_block {
+	margin:0 auto;
+	width:96%;
+	text-align: center;
+}
+.txt_block-first {
+	margin:0 auto 10px;
+}
+.txt_block-last {
+	margin: 5% auto 0;
+}
+.img_okiniiri {
+	margin:5px auto 0;
+	padding:30px;
+	max-width:470px;
+	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/top_banner5_bg.jpg) left top repeat;
+}
+
+.mt-3 { margin-top: 3px; }
+.mt-8 { margin-top: 8px; }
+.mt-30 { margin-top: 30px; }
+.mt-60 { margin-top: 60px; }
+.mb-60 { margin-bottom: 60px; }
+.p-12 { padding: 12px; }
+.p-15 { padding: 15px; }
+.fz-14 { font-size: 14px; }
+.fz-16 { font-size: 16px; }
+.fz-18 { font-size: 18px; }
+.fz-21 { font-size: 21px; }
+.fz-24 { font-size: 24px; }
+.fz-36 { font-size: 36px; }
+.fz-42 { font-size: 42px; }
+.fz-54 { font-size: 54px; }
+.ta-c { text-align: center; }
+.fw-b { font-weight: bold; }
+.fc-red_01 { color: #E50000; }
+.bc-blue_01 { background-color: #74E7E7; }
+.bc-ylw_01 { background-color: #f4f25b; }
+.bc-lor_01 { background-color: #ffcf3e; }
+.bc-red_01 { background-color: #E50000; }
+
+
+
+/*---------------------------------
+
+	mediaquery
+
+---------------------------------*/
+.bp-1-1 {width: 1000px;}
+.bp-2-1 {width: 50%;}
+.bp-4-2 {width: 25%;}
+.br-spON {display:none;}
+
+@media screen and (max-width:1024px) {	
+	.bp-1-1 {width: 100%;}
+	.bp-2-1 {width: 50%;}
+	.itemList_con { width: 100%;}
+}
+@media screen and (max-width:768px) {
+	.bp-4-2 {width: 25%;}
+	#lp_footer { display:none;}
+}
+@media screen and (max-width:480px) {
+	.bp-2-1 {width: 100%;}
+	.bp-4-2 {width: 50%;}
+	.oc_tt {font-size: 24px;}
+	.oc_tt_sub {font-size: 16px;}
+	.br-spON {display:block;}
+	.oc_con_bg-bsct {background-size:contain;}
+	.oc_con_block-white {background-color: rgba(256,256,256,0.9);}
+	.oc_con_block-white-ba7 {background-color: rgba(256,256,256,0.7);}
+}

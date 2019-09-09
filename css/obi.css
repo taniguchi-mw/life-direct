@@ -1,0 +1,10 @@
+@charset "euc-jp";
+
+/* --- サイド帯 --- */
+/* 左右 */
+body {
+	background:#F8F8EE;
+	background-image:url('https://www.rakuten.ne.jp/gold/life-direct/images/camp/pb_99_468x60_tate.jpg'), url('https://www.rakuten.ne.jp/gold/life-direct/images/camp/pb_99_468x60_tate.jpg');
+	background-repeat:repeat-y, repeat-y;
+	background-position:right top, left top;
+}

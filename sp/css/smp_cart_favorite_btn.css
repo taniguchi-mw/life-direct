@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*
+* お気にい入りボタン追加用CSS
+* copyright 株式会社いつも．
+*/
+
+/*既存カートボタンサイズ変更*/
+.cartButton{
+  width: 40%!important;
+}
+
+/*カートボタン角丸解除*/
+.cartButton > a {
+  border-top-right-radius: 0px!important;
+  border-bottom-right-radius: 0px!important;
+}
+
+/*カートボタン余白調整*/
+#floatingCartContainer .cartButton.checkOutButton{
+  padding-right: 1px!important;
+}
+
+/*追加お気に入りボタン*/
+.cartButton.addToFavoriteButton{
+  width:20%!important;
+}
+
+.cartButton.addToFavoriteButton > a > img {
+  position: relative;
+  top: 0;
+  margin-right: 2px;
+  width: 15px;
+  height: 16px;
+}
+
+.cartButton.addToFavoriteButton > a, .cartButton.addToFavoriteButton > a {
+  padding-top: 8px!important;
+  padding-bottom: 5px!important;
+  font-size:70%!important;
+  background-color:#ffa500!important;
+  border-top-right-radius: 3px!important;
+  border-bottom-right-radius: 3px!important;
+}
+
+/*フロートカートボタン調整*/
+#fixedCheckOut{
+  padding-right:1px;
+}
+
+/*フロートお気に入りボタン余白調整*/
+#floatingCartContainer .cartButton.addToFavoriteButton{
+  padding-right:7px;
+}

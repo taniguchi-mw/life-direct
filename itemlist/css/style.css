@@ -1,0 +1,10 @@
+@charset "euc-jp";
+
+.list {text-align: center;padding:0 0 5px;}
+.list p {font-size: 12px;
+line-height: 1.1;
+margin: 5px;
+padding: 0px;}
+.txt {color:#FF0000;}
+.list a {font-weight: bold;}
+.list img {border:none;}
