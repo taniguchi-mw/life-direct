@@ -108,6 +108,21 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	position:absolute;
 	width:414px;
 }
+
+
+.oc_con_bg {
+	width:100%;
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat:repeat;
+}
+.oc_con_block-white {
+	background-color: rgba(256,256,256,0.8);
+}
+.oc_con_block {
+	margin:0 auto;
+	padding: 0.5em 0;
+}
 /* お買い物マラソン */
 .oc_con_bg-om {
 	background: url(../images/om/om_bg.png) center top no-repeat #FFFFFF;
@@ -137,6 +152,7 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	background-position: left bottom;
 }
 
+
 .oc_topbtn-ss {
 	right:56px;
 	bottom:15px;
@@ -154,20 +170,13 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	background-image: url(../images/feature/summer_bg.jpg);
 	background-position: center top;
 }
+/* 秋特集 */
+.oc_con_bg-autumn2 {
+	background-image: url(../images/feature/autumn_bg.jpg);
+	background-position: left bottom;
+}
 
-.oc_con_bg {
-	width:100%;
-	background-attachment: fixed;
-	background-size:cover;
-	background-repeat:repeat;
-}
-.oc_con_block-white {
-	background-color: rgba(256,256,256,0.8);
-}
-.oc_con_block {
-	margin:0 auto;
-	padding: 0.5em 0;
-}
+
 
 
 
@@ -239,6 +248,23 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	background-color:#0a5294;
 }
 .oc_tt_sub-summer {
+	color: #fdff2c;
+}
+/* 秋特集 */
+.oc_tt_block-autumn {
+	background-color: #dd4615;
+	color:#FFFFFF;
+}
+.oc_tt_block-autumn::after {
+    border-top: 30px solid #dd4615;
+}
+.oc_tt-autumn {
+	color:#dd4615;
+}
+.oc_tt-autumn::before {
+	background-color:#dd4615;
+}
+.oc_tt_sub-autumn {
 	color: #fdff2c;
 }
 /* スーパーセール6月 */
@@ -669,4 +695,5 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	.oc_con_bg-bsct {background-size:contain;}
 	.oc_con_block-white {background-color: rgba(256,256,256,0.9);}
 	.oc_con_block-white-ba7 {background-color: rgba(256,256,256,0.7);}
+	.oc_con_bg { background:#e8e8cb; }
 }
