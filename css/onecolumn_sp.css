@@ -269,21 +269,27 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 }
 /* スーパーセール6月 */
 .oc_tt_block-ss {
-	background-color: #ffed02;
+	/* background-color: #ffed02; */
+	background-color: #00a6dd;
 	color:#0a5294;
 }
 .oc_tt_block-ss::after {
-    border-top: 30px solid #ffed02;
+    /* border-top: 30px solid #ffed02; */
+	border-top: 30px solid #00a6dd;
 }
 .oc_tt_block-ss {
-	color:#0a5294;
+	/* color:#0a5294; */
+	color:#ffffff;
 }
 .oc_tt_block-ss::before {
-	background-color:#ffed02;
+	/* background-color:#ffed02; */
+	background-color:#00a6dd;
 }
 .oc_tt_sub-ss {
-	color: #0a5294;
+	/* color: #0a5294; */
+	color: #ffed02;
 }
+
 
 
 .oc_tt-sakura {
