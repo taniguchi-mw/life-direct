@@ -151,6 +151,11 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	background-image: url(../images/oc_cmn/bg-cosmos.jpg);
 	background-position: left bottom;
 }
+/* 楽天イーグルス感謝祭 */
+.oc_con_bg-rk {
+	background-image: url(../images/rk/bg-rk.jpg);
+	background-position: left bottom;
+}
 
 
 .oc_topbtn-ss {
@@ -271,15 +276,11 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 .oc_tt_block-ss {
 	/* background-color: #ffed02; */
 	background-color: #00a6dd;
-	color:#0a5294;
+	color:#ffffff;
 }
 .oc_tt_block-ss::after {
     /* border-top: 30px solid #ffed02; */
 	border-top: 30px solid #00a6dd;
-}
-.oc_tt_block-ss {
-	/* color:#0a5294; */
-	color:#ffffff;
 }
 .oc_tt_block-ss::before {
 	/* background-color:#ffed02; */
@@ -288,6 +289,20 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 .oc_tt_sub-ss {
 	/* color: #0a5294; */
 	color: #ffed02;
+}
+/* 楽天イーグルス感謝祭 */
+.oc_tt_block-rk {
+	background-color: #7d001a;
+	color:#ffffff;
+}
+.oc_tt_block-rk::after {
+	border-top: 30px solid #7d001a;
+}
+.oc_tt_block-rk::before {
+	background-color:#7d001a;
+}
+.oc_tt_sub-rk {
+	color:#ffd02d;
 }
 
 
@@ -668,7 +683,7 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 .fc-red_01 { color: #E50000; }
 .bc-blue_01 { background-color: #74E7E7; }
 .bc-ylw_01 { background-color: #f4f25b; }
-.bc-lor_01 { background-color: #ffcf3e; }
+.bc-lor_01 { background-color: #ffd02d; }
 .bc-red_01 { background-color: #E50000; }
 
 
