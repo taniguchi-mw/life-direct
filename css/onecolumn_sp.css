@@ -347,7 +347,7 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 }
 .couponList_note {
 	margin:0 auto;
-	padding-top:2%;
+	padding:1% 0 2%;
 	width:96%;
 	font-size: 18px;
 	text-align: center;
@@ -662,6 +662,9 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 	max-width:470px;
 	background: url(https://www.rakuten.ne.jp/gold/life-direct/images/top_banner5_bg.jpg) left top repeat;
 }
+.img_PCnor img {
+	width:auto;
+}
 
 .mt-3 { margin-top: 3px; }
 .mt-8 { margin-top: 8px; }
@@ -706,6 +709,7 @@ background-image: linear-gradient(45deg, #b10000 25%, transparent 25%,
 @media screen and (max-width:768px) {
 	.bp-4-2 {width: 25%;}
 	#lp_footer { display:none;}
+	.img_PCnor img { width:100%; }
 }
 @media screen and (max-width:480px) {
 	.bp-2-1 {width: 100%;}
